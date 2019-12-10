@@ -1,4 +1,7 @@
 # code the #greeting method here!
+RSpec.configure do |config|
+  config.order = :default
+end
 
 
 def run_file(file)
